@@ -3,7 +3,8 @@ pawfectly_sources = [
   'window.vala',
   'application.vala',
   'content.vala',
-  'header.vala'
+  'header.vala',
+  'addpet.vala'
 ]
 
 pawfectly_deps = [

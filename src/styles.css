@@ -1,0 +1,14 @@
+#background {
+    background: red;
+}
+
+#header{
+    background-color: white;
+    color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#gmbr{
+    background-color: blanchedalmond;
+}

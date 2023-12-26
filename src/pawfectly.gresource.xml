@@ -5,10 +5,13 @@
     <file>gtk/help-overlay.ui</file>
     <file>header.ui</file>
     <file>content.ui</file>
-    
+    <file>dashboard.ui</file>
     <file>assets/logo.png</file>
     <file>assets/hedgehogs.svg</file>
-
+    <file>assets/Corgi.png</file>
+    <file>assets/Molly.png</file>
+    <file>assets/Mushroom.png</file>
+    <file>assets/Homepic.png</file>
     <file>styles.css</file>
   </gresource>
 </gresources>

@@ -33,7 +33,55 @@
 }
 
 #pawfectly{
+    position: end;
     font-size: 30px;
     font-weight: 700;
     color: #FCC576;
 }
+
+#labelpaw {
+    color: yellow;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10;
+  }
+  
+  #mainbox {
+    background-color: white;
+  }
+  #labelhi{
+    color: brown;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  #myptxt{
+    color: brown;
+    font-size: 38px;
+    font-weight: 600;
+    margin: 8px;
+  }
+  
+  #petbox{
+    background-color: rgb(246,205,199);
+    margin: 15px;
+    border-radius: 12px;
+  }
+  #imagespaw{
+    margin: 10px;
+    position: end;
+  }
+  #images{
+    margin: 15px;
+  }
+  #petname{
+    color:brown;
+    font-size: 27px;
+    font-weight: 700;
+    margin: 10px;
+  }
+  
+  
+  
+    

@@ -16,6 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+using Gtk;
 namespace Pawfectly {
     public class Application : Gtk.Application {
         public Application () {
@@ -24,6 +25,8 @@ namespace Pawfectly {
 
         construct {
             ActionEntry[] action_entries = {
+                { "about", this.on_about_action },
+                { "preferences", this.on_preferences_action },
                 { "quit", this.quit }
             };
             this.add_action_entries (action_entries, this);
@@ -33,14 +36,20 @@ namespace Pawfectly {
         public override void activate () {
             base.activate ();
             var win = this.active_window;
+            win = new Pawfectly.Window (this);
             if (win == null) {
                 win = new Pawfectly.Window (this);
+                var provider = new CssProvider();
+                provider.load_from_resource ("/org/example/App/style.css");
+
+                var context = win.get_style_context();
+                context.add_provider_for_display(Gdk.Display.get_default(), provider, STYLE_PROVIDER_PRIORITY_APPLICATION);
             }
             win.present ();
         }
 
         private void on_about_action () {
-            string[] authors = { "Nana" };
+            string[] authors = { "Nana", "smthlikeyou" };
             Gtk.show_about_dialog (this.active_window,
                                    "program-name", "pawfectly",
                                    "authors", authors,

@@ -36,8 +36,10 @@ namespace Pawfectly {
             );
 
             var header = new Pawfectly.Header();
+            var content = new Pawfectly.Content();
             
             body.append(header.head);
+            body.append(content.content);
         }
     }
 }

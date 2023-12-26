@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0" />
+  <template class="PawfectlyContentUi" parent="GtkBox">
+    <property name="width-request">300</property>
+    <child>
+      <object class="GtkBox" id="content">
+        <property name="orientation">vertical</property>
+        <property name="margin_start">20</property>
+        <child>
+          <object class="GtkEntry" id="uname">
+            <property name="name">inputbar</property>
+            <property name="margin_top">30</property>
+            <property name="placeholder-text">Username</property>
+            <property name="width-request">240</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkEntry" id="pass">
+            <property name="name">inputbar</property>
+            <property name="margin_top">10</property>
+            <property name="placeholder-text">Password</property>
+            <property name="visibility">False</property>
+            <property name="width-request">240</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="resource">/org/example/App/assets/hedgehogs.svg</property>
+            <property name="pixel-size">230</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="label">WE'RE</property>
+                    <property name="name">signtext</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="label">ALMOST</property>
+                    <property name="name">signtext</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="label">THERE</property>
+                    <property name="name">signtext</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkButton">
+                <property name="label">Get Started</property>
+                <property name="name">signin</property>
+                <property name="margin-start">50</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

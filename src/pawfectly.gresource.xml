@@ -4,6 +4,10 @@
     <file>window.ui</file>
     <file>gtk/help-overlay.ui</file>
     <file>header.ui</file>
+    <file>content.ui</file>
+    
+    <file>assets/logo.png</file>
+    <file>assets/hedgehogs.svg</file>
 
     <file>styles.css</file>
   </gresource>

@@ -2,6 +2,7 @@ pawfectly_sources = [
   'main.vala',
   'window.vala',
   'application.vala',
+  'content.vala',
   'header.vala'
 ]
 

@@ -5,7 +5,8 @@ pawfectly_sources = [
   'content.vala',
   'header.vala',
   'addpet.vala',
-  'editmypet.vala'
+  'editmypet.vala',
+  'mypets.vala'
 ]
 
 pawfectly_deps = [

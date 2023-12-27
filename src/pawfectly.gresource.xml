@@ -13,7 +13,7 @@
     <file>assets/Mushroom.png</file>
     <file>assets/Homepic.png</file>
     <file>styles.css</file>
-    <file>mypetwindow.ui</file>
+    <file>editmypet.ui</file>
     <file>addpet.ui</file>
     <file>mypetstyle.css</file>   
   </gresource>

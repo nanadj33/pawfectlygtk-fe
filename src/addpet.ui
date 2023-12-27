@@ -31,7 +31,7 @@
               <object class="GtkEntry" id="petname_entry">
                 <property name="name">petname_entry</property>
                 <property name="placeholder_text">Your pet's name</property>
-                <property name="width-request">500</property>
+                <property name="width-request">300</property>
               </object>
             </child>
           </object>
@@ -54,7 +54,7 @@
               <object class="GtkEntry" id="whatpet_entry">
                 <property name="name">whatpet_entry</property>
                 <property name="placeholder_text">e.g: Cat</property>
-                <property name="width-request">500</property>
+                <property name="width-request">300</property>
               </object>
             </child>
           </object>
@@ -77,7 +77,7 @@
               <object class="GtkEntry" id="breed_entry">
                 <property name="name">breed_entry</property>
                 <property name="placeholder_text">Breed, e.g: Perssian</property>
-                <property name="width-request">500</property>
+                <property name="width-request">300</property>
               </object>
             </child>
           </object>
@@ -85,7 +85,7 @@
 
         <!-- button add pet -->
         <child>
-          <object class="GtkButton">
+          <object class="GtkButton" id="addpet_button">
             <property name="label">Pawfect!</property>
             <property name="name">addpetbutton</property>
           </object>

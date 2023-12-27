@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="TesloginWindow" parent="GtkApplicationWindow">
+    <property name="default-width">600</property>
+    <property name="default-height">600</property>
+    <child type="titlebar">
+      <object class="GtkHeaderBar" id="header_bar">
+        <child type="end">
+          <object class="GtkMenuButton">
+            <property name="icon-name">open-menu-symbolic</property>
+            <property name="menu-model">primary_menu</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkBox" id="box1">
+        <property name="name">mainbox</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkLabel">
+            <property name="label">PawFectly</property>
+            <property name="name">labelpaw</property>
+            <property name="halign">GTK_ALIGN_CENTER</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="orientation">horizontal</property>
+            <child>
+              <object class="GtkLabel">
+                <property name="label">Hi, Regina!</property>
+                <property name="name">labelhi</property>
+                <property name="halign">GTK_ALIGN_START</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkImage" id="imagespaw">
+                <property name="visible">True</property>
+                <property name="pixel-size">200</property>
+                <property name="margin-bottom">3</property>
+                <property name="name">imagespaw</property>
+                <property name="halign">GTK_ALIGN_END</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox" id="petbox">
+            <property name="name">petbox</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkLabel">
+                <property name="label">-- My Pets --</property>
+                <property name="halign">GTK_ALIGN_CENTER</property>
+                <property name="name">myptxt</property>
+              </object>
+            </child>
+            <child>
+            <object class="GtkBox">
+              <property name="orientation">horizontal</property>
+              <property name="halign">center</property>
+                  <child>
+                    <object class="GtkBox">
+                      <property name="name">petcard</property>
+                      <property name="orientation">vertical</property>
+                          <child>
+                            <object class="GtkImage" id="image1">
+                              <property name="visible">True</property>
+                              <property name="pixel-size">200</property>
+                              <property name="margin-bottom">3</property>
+                              <property name="name">images</property>
+                            </object>
+                          </child>
+                          <child>
+                            <object class="GtkLabel">
+                              <property name="label">Corgi</property>
+                              <property name="name">petname</property>
+                            </object>
+                          </child>
+                    </object>
+                  </child>
+                  <child>
+                    <object class="GtkBox">
+                      <property name="name">petcard</property>
+                      <property name="orientation">vertical</property>
+                          <child>
+                            <object class="GtkImage" id="image2">
+                              <property name="visible">True</property>
+                              <property name="pixel-size">200</property>
+                              <property name="margin-bottom">3</property>
+                              <property name="name">images</property>
+                            </object>
+                          </child>
+                          <child>
+                            <object class="GtkLabel">
+                              <property name="label">Molly</property>
+                              <property name="name">petname</property>
+                            </object>
+                          </child>
+                    </object>
+                  </child>
+                  <child>
+                    <object class="GtkBox">
+                      <property name="name">petcard</property>
+                      <property name="orientation">vertical</property>
+                          <child>
+                            <object class="GtkImage" id="image3">
+                              <property name="visible">True</property>
+                              <property name="pixel-size">200</property>
+                              <property name="margin-bottom">3</property>
+                              <property name="name">images</property>
+                            </object>
+                          </child>
+                          <child>
+                            <object class="GtkLabel">
+                              <property name="label">Mushroom</property>
+                              <property name="name">petname</property>
+                            </object>
+                          </child>
+                    </object>
+                  </child>
+
+            </object>
+            </child>
+          </object>
+        </child>
+
+      </object>
+    </child>
+  </template>
+
+  <menu id="primary_menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Preferences</attribute>
+        <attribute name="action">app.preferences</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Keyboard Shortcuts</attribute>
+        <attribute name="action">win.show-help-overlay</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_About teslogin</attribute>
+        <attribute name="action">app.about</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>

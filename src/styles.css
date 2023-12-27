@@ -1,0 +1,191 @@
+#background{
+  background:#FCF2F1;
+}
+
+#conbg{
+  background: #CC5946;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 350px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+#pawfectly{
+  font-size: 30px;
+  font-weight: 700;
+  color: #FCC576;
+}
+
+#sign{
+  background-color: transparent;
+  color: #CC5946;
+}
+
+#sign:hover{
+  background-color: #f7dddc;
+}
+
+#signi{
+  background-color: transparent;
+  color: #CC5946;
+  border-bottom: 2px solid #CC5946;
+  border-radius: 0px;
+}
+
+#signi:hover{
+  background-color: #f7dddc;
+}
+
+#gmbr{
+  padding: 10px;
+}
+
+#header{
+  background-color: #FCF2F1;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#signtext{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#signin{
+  background-color: #FCC576;
+  color: #704520;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+#signin:hover{
+  background-color: rgb(247, 180, 87);
+}
+
+#inputbar{
+  background-color: #FCF2F1;
+  border-radius: 20px;
+  color: #CC5946;
+}
+
+#header{
+  background-color: #FCF2F1;
+  color: #CC5946;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#sign{
+  background-color: transparent;
+}
+
+#inputbar{
+  background-color: #FCF2F1;
+  border-radius: 20px;
+  color: #CC5946;
+}
+
+#signtext{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#signin{
+  background-color: #FCC576;
+  color: #704520;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+#labelpaw {
+  color: yellow;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px;
+}
+
+#mainbox {
+  background-color: white;
+}
+#labelhi{
+  color: brown;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#myptxt{
+  color: brown;
+  font-size: 38px;
+  font-weight: 600;
+  margin: 8px;
+}
+
+#petbox{
+  background-color: rgb(246,205,199);
+  margin: 15px;
+  border-radius: 12px;
+}
+
+#images{
+  margin: 15px;
+}
+#petname{
+  color:brown;
+  font-size: 27px;
+  font-weight: 700;
+  margin: 10px;
+}
+
+#background {
+  background-color: #CC5946;
+}
+
+#card {
+    background-color: #FFC989;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(77, 56, 7, 0.305);
+    margin-top: 60px;
+}
+
+#addpetbutton,
+#editpetbutton{
+    background-color: #5b3704;
+    color: white;
+    margin-top: 40px;
+    padding: 14px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+#addpetbutton:hover,
+#editpetbutton:hover {
+    background-color: #df7a00;
+    color: #5b3704;
+}
+
+#petname_entry,
+#whatpet_entry,
+#breed_entry,
+#petbutton {
+    padding: 6px;
+    border-radius: 20px;
+    background-color: #ffebd3;
+    margin-bottom: 10px;
+    color: #CC5946;
+}
+
+#editpethomebutton{
+  background-color: #CC5946;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+#editpethomebutton:hover{
+  background-color: #fa9b8a;
+}

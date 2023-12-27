@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0" />
+  <template class="PawfectlyRightconUi" parent="GtkBox">
+    <child>
+      <object class="GtkBox" id="rightcon">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkBox">
+            <property name="name">header</property>
+            <property name="margin-start">20</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkBox">
+                <child>
+                  <object class="GtkImage">
+                    <property name="margin-start">30</property>
+                    <property name="resource">/org/example/App/assets/logopaw.svg</property>
+                    <property name="pixel-size">45</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="margin-start">10</property>
+                    <property name="label">PawFectly</property>
+                    <property name="name">pawfectly</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkBox" id="namebar">
+                <property name="margin-start">35</property>
+                <property name="orientation">horizontal</property>
+                <property name="margin_top">5</property>
+                <child>
+                  <object class="GtkButton" id="signin">
+                    <property name="name">signi</property>
+                    <property name="label">SignIn</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkButton" id="signup">
+                    <property name="margin_start">30</property>
+                    <property name="name">sign</property>
+                    <property name="label">SignUp</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox" id="content">
+            <property name="orientation">vertical</property>
+            <property name="margin_start">20</property>
+            <child>
+              <object class="GtkEntry" id="uname">
+                <property name="name">inputbar</property>
+                <property name="margin_top">20</property>
+                <property name="placeholder-text">Username</property>
+                <property name="width-request">240</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkEntry" id="pass">
+                <property name="name">inputbar</property>
+                <property name="margin_top">10</property>
+                <property name="placeholder-text">Password</property>
+                <property name="visibility">False</property>
+                <property name="width-request">240</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="margin-top">185</property>
+                <property name="margin-start">20</property>
+                <child>
+                  <object class="GtkBox">
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="label">WE'RE</property>
+                        <property name="name">signtext</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="label">ALMOST</property>
+                        <property name="name">signtext</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="label">THERE</property>
+                        <property name="name">signtext</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkButton" id="login">
+                    <property name="label">Get Started</property>
+                    <property name="name">signin</property>
+                    <property name="margin-start">50</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

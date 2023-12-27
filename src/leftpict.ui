@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="PawfectlyLeftpictUi" parent="GtkBox">
+    <child>
+      <object class="GtkBox" id="leftpict">
+        <property name="name">gmbr</property>
+        <child>
+          <object class="GtkImage">
+            <property name="resource">/org/example/App/assets/hedgehogs.svg</property>
+            <property name="pixel-size">300</property>
+            <property name="margin-top">20</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

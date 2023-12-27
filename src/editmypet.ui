@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0" />
+  <template class="PawfectlyEditmypetboxUI" parent="GtkBox">
+    <property name="width-request">300</property>
+    <property name="height-request">120</property>
+    <property name="name">textbox</property>
+    <property name="halign">center</property>
+    <property name="valign">center</property>
+    <child>
+      <object class="GtkBox" id="text">
+        <property name="orientation">vertical</property>
+        <property name="name">card</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+
+        <!-- pet name Entry with Label -->
+        <child>
+          <object class="GtkBox" id="petname_box">
+            <property name="orientation">vertical</property>
+            <property name="halign">start</property>
+
+            <child>
+              <object class="GtkLabel" id="petname_label">
+                <property name="label">my name is...</property>
+                <property name="halign">start</property>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkEntry" id="petname_entry">
+                <property name="name">petname_entry</property>
+                <property name="placeholder_text">Your pet's name</property>
+                <property name="width-request">300</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <!-- what pet Entry with Label -->
+        <child>
+          <object class="GtkBox" id="whatpet_box">
+            <property name="orientation">vertical</property>
+            <property name="halign">start</property>
+
+            <child>
+              <object class="GtkLabel" id="whatpet_label">
+                <property name="label">I'm a</property>
+                <property name="halign">start</property>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkEntry" id="whatpet_entry">
+                <property name="name">whatpet_entry</property>
+                <property name="placeholder_text">e.g: Cat</property>
+                <property name="width-request">300</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <!-- breed Entry with Label -->
+        <child>
+          <object class="GtkBox" id="breed_box">
+            <property name="orientation">vertical</property>
+            <property name="halign">start</property>
+
+            <child>
+              <object class="GtkLabel" id="breed_label">
+                <property name="label">specifically, i'm a</property>
+                <property name="halign">start</property>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkEntry" id="breed_entry">
+                <property name="name">breed_entry</property>
+                <property name="placeholder_text">Breed, e.g: Perssian</property>
+                <property name="width-request">300</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <!-- button edit pet -->
+        <child>
+          <object class="GtkButton" id="editpet_button">
+            <property name="label">Edit!</property>
+            <property name="name">editpetbutton</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

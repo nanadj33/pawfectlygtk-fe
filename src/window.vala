@@ -17,12 +17,20 @@ namespace Pawfectly {
                 Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
             );
 
+<<<<<<< HEAD
 
             var mypet = new Pawfectly.Mypet(body);
             body.append(mypet.mypet);
             
             //  var editpetbox = new Pawfectly.Editmypetbox();
             //  body.append(editpetbox.editpet);
+=======
+            var mypet = new Pawfectly.Mypet();
+            
+            body.append(mypet.mypet);
+
+            
+>>>>>>> origin/main
         }
     }
 }

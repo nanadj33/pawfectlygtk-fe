@@ -20,6 +20,7 @@ namespace Pawfectly {
             whatpet_entry = tempBox.whatpet_entry; 
             breed_entry = tempBox.breed_entry; 
             addpet_button = tempBox.addpet_button;
+<<<<<<< HEAD
             
             addpet_button.clicked.connect(() => {
                 
@@ -36,6 +37,12 @@ namespace Pawfectly {
             });
         }
 
+=======
+
+            addpet_button.clicked.connect(clicked);
+        }
+        
+>>>>>>> origin/main
     }
 
     [GtkTemplate (ui = "/org/example/App/addpet.ui")]
@@ -49,4 +56,8 @@ namespace Pawfectly {
         [GtkChild]
         public unowned Gtk.Button addpet_button;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/main

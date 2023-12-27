@@ -8,6 +8,11 @@ pawfectly_sources = [
   'leftpict.vala',
   'rightcon.vala',
   'rightconup.vala',
+  'content.vala',
+  'header.vala',
+  'addpet.vala',
+  'editmypet.vala',
+  'mypets.vala'
 ]
 
 pawfectly_deps = [

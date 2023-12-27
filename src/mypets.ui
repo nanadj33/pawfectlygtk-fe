@@ -31,6 +31,7 @@
         <child>
           <object class = "GtkLabel" id="mypetsbreedinfo">
             <property name="label">Persian</property>
+            <property name="label">Perssian</property>
             <property name="halign">start</property>
           </object>
         </child>
@@ -41,6 +42,7 @@
             <property name="halign">end</property>
             <property name="valign">center</property>
             <property name="label">delete</property>
+            <property name="label">edit</property>
             <property name="name">editpethomebutton</property>
           </object>
         </child>

@@ -16,5 +16,6 @@
     <file>editmypet.ui</file>
     <file>addpet.ui</file>
     <file>mypetstyle.css</file>   
+    <file>mypets.ui</file>
   </gresource>
 </gresources>

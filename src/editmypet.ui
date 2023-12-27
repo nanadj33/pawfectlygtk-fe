@@ -86,7 +86,7 @@
         <!-- button edit pet -->
         <child>
           <object class="GtkButton" id="editpet_button">
-            <property name="label">Pawfect!</property>
+            <property name="label">Edit!</property>
             <property name="name">editpetbutton</property>
           </object>
         </child>

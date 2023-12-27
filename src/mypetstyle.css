@@ -1,16 +1,17 @@
-#background{
+#background {
     background-color: #CC5946;
 }
 
-#card{
+#card {
     background-color: #FFC989;
-    padding: 50px;
+    padding: 20px;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(77, 56, 7, 0.305);
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
-#addpetbutton{
+#addpetbutton,
+#editpetbutton {
     background-color: #5b3704;
     color: white;
     margin-top: 40px;
@@ -19,28 +20,18 @@
     font-weight: 600;
 }
 
-#addpetbutton:hover{
+#addpetbutton:hover,
+#editpetbutton:hover {
     background-color: #df7a00;
     color: #5b3704;
-    
 }
 
-#petname_entry{
-    padding: 8px;
+#petname_entry,
+#whatpet_entry,
+#breed_entry {
+    padding: 6px;
     border-radius: 20px;
     background-color: #ffebd3;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-#whatpet_entry{
-    padding: 8px;
-    border-radius: 20px;
-    background-color: #ffebd3;
-    margin-bottom: 20px;
-}
-
-#breed_entry{
-    padding: 8px;
-    border-radius: 20px;
-    background-color: #ffebd3;
-}

@@ -10,16 +10,16 @@ namespace Pawfectly {
 
         construct {
             var css_style = new Gtk.CssProvider();
-            css_style.load_from_resource("/org/example/App/mypetstyle.css");
+            css_style.load_from_resource("/org/example/App/styles.css");
             Gtk.StyleContext.add_provider_for_display(
                 Gdk.Display.get_default(),
                 css_style,
                 Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
             );
 
-            var addpetbox = new Pawfectly.Addpetbox();
+            var mypet = new Pawfectly.Mypet();
             
-            body.append(addpetbox.addpet);
+            body.append(mypet.mypet);
 
             
         }

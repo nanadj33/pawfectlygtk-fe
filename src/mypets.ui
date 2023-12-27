@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0" />
+  <template class="PawfectlyMypetUI" parent="GtkBox">
+    <property name="halign">center</property>
+    <property name="valign">center</property>
+    <property name="width-request">300</property>
+    <child>
+      <object class="GtkBox" id="content">
+        <property name="orientation">vertical</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <!-- pet -->
+        <child>
+          <object class="GtkButton" id="mypet_button">
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="label">mowgli</property>
+            <property name="name">petbutton</property>
+          </object>
+        </child>
+
+        <!-- add pet button -->
+        <child>
+          <object class="GtkButton" id="addpet_button">
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="label">add pet</property>
+            <property name="name">addpetbutton</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>
